@@ -7,7 +7,7 @@ const Projects = () => {
       title: 'APPIMR - Ministry of Education',
       description: 'Comprehensive educational management system for the Malaysian Ministry of Education, handling student records, assessments, and administrative workflows.',
       url: 'https://appimr.moe.gov.my',
-      image: 'https://images.pexels.com/photos/159844/cellular-education-classroom-159844.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/appimr.png',
       category: 'Government Platform',
       technologies: ['PHP', 'MySQL', 'Bootstrap', 'jQuery'],
       features: ['Student Management', 'Assessment System', 'Administrative Dashboard']
@@ -16,7 +16,7 @@ const Projects = () => {
       title: 'APPISR - Education System',
       description: 'Advanced educational information system for streamlined academic administration and student information management.',
       url: 'https://appisr.moe.gov.my',
-      image: 'https://images.pexels.com/photos/301926/pexels-photo-301926.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/appisr.png',
       category: 'Government Platform',
       technologies: ['PHP', 'Laravel', 'Vue.js', 'MySQL'],
       features: ['Academic Records', 'Reporting System', 'Multi-user Access']
@@ -25,7 +25,7 @@ const Projects = () => {
       title: 'ELP - E-Learning Platform',
       description: 'Modern e-learning platform for the Ministry of Education, facilitating online education and digital learning resources.',
       url: 'https://elp.moe.gov.my',
-      image: 'https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/elp.png',
       category: 'Education Technology',
       technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
       features: ['Course Management', 'Interactive Learning', 'Progress Tracking']
@@ -34,7 +34,7 @@ const Projects = () => {
       title: 'AsiaPadu',
       description: 'Enterprise-level business management platform providing comprehensive solutions for organizational efficiency and productivity.',
       url: 'https://asiapadu.com.my',
-      image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/apsb.png',
       category: 'Enterprise Solution',
       technologies: ['React', 'TypeScript', 'PostgreSQL', 'Docker'],
       features: ['Business Analytics', 'Workflow Management', 'Real-time Dashboard']
@@ -43,7 +43,7 @@ const Projects = () => {
       title: 'ROSSA Cloud Platform',
       description: 'Sophisticated cloud-based application providing scalable infrastructure and management tools for enterprise clients.',
       url: 'https://rossa.apsbcloud.net',
-      image: 'https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/rossa.png',
       category: 'Cloud Platform',
       technologies: ['Vue.js', 'Python', 'PostgreSQL', 'AWS'],
       features: ['Cloud Infrastructure', 'API Management', 'Monitoring Tools']
@@ -52,7 +52,7 @@ const Projects = () => {
       title: 'KampungKita Community',
       description: 'Community-driven platform connecting neighborhoods and fostering local engagement through digital innovation.',
       url: 'https://kampungkita.net',
-      image: 'https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/kampungkita.png',
       category: 'Community Platform',
       technologies: ['Next.js', 'React', 'MySQL', 'Tailwind CSS'],
       features: ['Community Forums', 'Event Management', 'Local News']
@@ -61,7 +61,7 @@ const Projects = () => {
       title: 'Visitor Pass Management',
       description: 'Streamlined visitor management system for secure access control and efficient guest registration processes.',
       url: 'https://visitor-pass.apsbcloud.net',
-      image: 'https://images.pexels.com/photos/8728380/pexels-photo-8728380.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/sdp.png',
       category: 'Security System',
       technologies: ['Laravel', 'Vue.js', 'MySQL', 'Bootstrap'],
       features: ['Access Control', 'Digital Passes', 'Security Logs']
@@ -70,7 +70,7 @@ const Projects = () => {
       title: 'CAS2 Laboratory System',
       description: 'Advanced laboratory management system for research facilities, handling equipment, experiments, and data analysis.',
       url: 'https://cas2-lab.apsbcloud.net',
-      image: 'https://images.pexels.com/photos/2280549/pexels-photo-2280549.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/cas2.png',
       category: 'Laboratory System',
       technologies: ['React', 'Python', 'PostgreSQL', 'FastAPI'],
       features: ['Equipment Tracking', 'Experiment Management', 'Data Analysis']
@@ -79,7 +79,7 @@ const Projects = () => {
       title: 'Padurus Platform',
       description: 'Innovative business platform providing comprehensive tools for digital transformation and operational excellence.',
       url: 'https://padurus.io',
-      image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/padurus.png',
       category: 'Business Platform',
       technologies: ['Next.js', 'TypeScript', 'Supabase', 'Tailwind CSS'],
       features: ['Business Intelligence', 'Process Automation', 'Analytics']
@@ -88,7 +88,7 @@ const Projects = () => {
       title: 'Padurus App',
       description: 'Mobile-first application complementing the Padurus platform with enhanced user experience and mobile-specific features.',
       url: 'https://app.padurus.io',
-      image: 'https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-147413.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/padurus-app.png',
       category: 'Web Application',
       technologies: ['React Native', 'TypeScript', 'Node.js', 'MongoDB'],
       features: ['Mobile Optimization', 'Offline Support', 'Push Notifications']
@@ -97,7 +97,7 @@ const Projects = () => {
       title: 'Saham2U Investment',
       description: 'Financial technology platform for investment management and market analysis, serving Malaysian investors.',
       url: 'https://saham2u.com.my',
-      image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/saham2u.png',
       category: 'FinTech',
       technologies: ['React', 'Node.js', 'PostgreSQL', 'Chart.js'],
       features: ['Portfolio Management', 'Market Analysis', 'Trading Tools']
@@ -106,7 +106,7 @@ const Projects = () => {
       title: 'Dr. Charlotte Joseph',
       description: 'Professional medical practice website featuring appointment booking, patient resources, and comprehensive healthcare information.',
       url: 'https://drcharlottejoseph.com/',
-      image: 'https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/drcharlete.png',
       category: 'Healthcare Website',
       technologies: ['WordPress', 'PHP', 'MySQL', 'Custom CSS'],
       features: ['Appointment System', 'Patient Portal', 'Medical Resources']
