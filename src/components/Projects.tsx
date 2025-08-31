@@ -5,7 +5,7 @@ const Projects = () => {
   const projects = [
     {
       title: 'APPIMR - Ministry of Education',
-      description: 'Comprehensive educational management system for the Malaysian Ministry of Education, handling student records, assessments, and administrative workflows.',
+      description: 'APPI Menengah Rendah — Aplikasi Pengumpulan & Pemasangan Instrumen untuk pengurusan instrumen pentaksiran (Lembaga Peperiksaan Malaysia).',
       url: 'https://appimr.moe.gov.my',
       image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/appimr.png',
       category: 'Government Platform',
@@ -14,7 +14,7 @@ const Projects = () => {
     },
     {
       title: 'APPISR - Education System',
-      description: 'Advanced educational information system for streamlined academic administration and student information management.',
+      description: 'APPI Sekolah Rendah — Aplikasi Pengumpulan & Pemasangan Instrumen untuk sekolah rendah (Lembaga Peperiksaan Malaysia).',
       url: 'https://appisr.moe.gov.my',
       image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/appisr.png',
       category: 'Government Platform',
@@ -23,7 +23,7 @@ const Projects = () => {
     },
     {
       title: 'ELP - E-Learning Platform',
-      description: 'Modern e-learning platform for the Ministry of Education, facilitating online education and digital learning resources.',
+      description: 'eLP (e-Lembaga Peperiksaan mobile app) — delivers exam information, result review and official exam-related updates and modules (Lembaga Peperiksaan Malaysia).',
       url: 'https://elp.moe.gov.my',
       image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/elp.png',
       category: 'Education Technology',
@@ -31,8 +31,8 @@ const Projects = () => {
       features: ['Course Management', 'Interactive Learning', 'Progress Tracking']
     },
     {
-      title: 'AsiaPadu',
-      description: 'Enterprise-level business management platform providing comprehensive solutions for organizational efficiency and productivity.',
+      title: 'Asia Padu',
+      description: 'Asia Padu Sdn Bhd — Malaysian IT system integrator offering enterprise solutions (mobile & web development, hosting, infrastructure).',
       url: 'https://asiapadu.com.my',
       image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/apsb.png',
       category: 'Enterprise Solution',
@@ -41,77 +41,87 @@ const Projects = () => {
     },
     {
       title: 'ROSSA Cloud Platform',
-      description: 'Sophisticated cloud-based application providing scalable infrastructure and management tools for enterprise clients.',
+      description: 'ROSSA — cloud platform — enterprise cloud system for Project tracking and management.',
       url: 'https://rossa.apsbcloud.net',
       image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/rossa.png',
       category: 'Cloud Platform',
-      technologies: ['Vue.js', 'Python', 'PostgreSQL', 'AWS'],
+      technologies: ['PHP', 'Python', 'Laravel', 'MySQL', 'AWS'],
       features: ['Cloud Infrastructure', 'API Management', 'Monitoring Tools']
     },
     {
       title: 'KampungKita Community',
-      description: 'Community-driven platform connecting neighborhoods and fostering local engagement through digital innovation.',
+      description: 'Kampung Kita — "Kampung Digital Pertama di Malaysia": a community app connecting neighbourhoods with services (local businesses, donations, e-khairat, events, news).',
       url: 'https://kampungkita.net',
       image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/kampungkita.png',
       category: 'Community Platform',
-      technologies: ['Next.js', 'React', 'MySQL', 'Tailwind CSS'],
+      technologies: ['PHP', 'Python', 'Laravel', 'MySQL', 'SQLite', 'AWS', 'Bootstrap'],
       features: ['Community Forums', 'Event Management', 'Local News']
     },
     {
       title: 'Visitor Pass Management',
-      description: 'Streamlined visitor management system for secure access control and efficient guest registration processes.',
+      description: 'Sistem Daftar Pelawat — visitor registration system (login page), used by Ibu Pejabat Polis Daerah Johor Bahru Utara; powered by Asia Padu.',
       url: 'https://visitor-pass.apsbcloud.net',
       image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/sdp.png',
       category: 'Security System',
-      technologies: ['Laravel', 'Vue.js', 'MySQL', 'Bootstrap'],
+      technologies: ['PHP', 'Python', 'Laravel', 'MySQL', 'Vue.js', 'Bootstrap'],
       features: ['Access Control', 'Digital Passes', 'Security Logs']
     },
     {
       title: 'CAS2 Laboratory System',
-      description: 'Advanced laboratory management system for research facilities, handling equipment, experiments, and data analysis.',
+      description: 'CAS V3 (login) — laboratory/clinical system (login page) powered by Asia Padu (public page shows login only).',
       url: 'https://cas2-lab.apsbcloud.net',
       image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/cas2.png',
       category: 'Laboratory System',
-      technologies: ['React', 'Python', 'PostgreSQL', 'FastAPI'],
+      technologies: ['PHP', 'Python', 'Laravel', 'MySQL', 'Vue.js', 'Bootstrap'],
       features: ['Equipment Tracking', 'Experiment Management', 'Data Analysis']
     },
     {
       title: 'Padurus Platform',
-      description: 'Innovative business platform providing comprehensive tools for digital transformation and operational excellence.',
+      description: 'Padurus — SaaS uptime & IT monitoring platform that monitors services, sends alerts, and centralises IT monitoring and management.',
       url: 'https://padurus.io',
       image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/padurus.png',
       category: 'Business Platform',
-      technologies: ['Next.js', 'TypeScript', 'Supabase', 'Tailwind CSS'],
+      technologies: ['PHP', 'Python', 'Laravel', 'MySQL', 'Vue.js', 'Bootstrap'],
       features: ['Business Intelligence', 'Process Automation', 'Analytics']
     },
     {
       title: 'Padurus App',
-      description: 'Mobile-first application complementing the Padurus platform with enhanced user experience and mobile-specific features.',
+      description: 'Padurus mobile app — official mobile client for Padurus uptime/monitoring service (Play Store listing).',
       url: 'https://app.padurus.io',
       image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/padurus-app.png',
       category: 'Web Application',
-      technologies: ['React Native', 'TypeScript', 'Node.js', 'MongoDB'],
+      technologies: ['PHP', 'Python', 'Laravel', 'MySQL', 'Vue.js', 'Bootstrap', 'MongoDB'],
       features: ['Mobile Optimization', 'Offline Support', 'Push Notifications']
     },
     {
       title: 'Saham2U Investment',
-      description: 'Financial technology platform for investment management and market analysis, serving Malaysian investors.',
+      description: 'Saham2U — a Malaysian fintech platform to unlock cash from shares (share-collateral financing; platform statements note Shariah-compliant features).',
       url: 'https://saham2u.com.my',
       image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/saham2u.png',
       category: 'FinTech',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'Chart.js'],
+      technologies: ['PHP', 'Python', 'Laravel', 'MySQL', 'Vue.js', 'Bootstrap', 'React', 'Node.js', 'Chart.js'],
       features: ['Portfolio Management', 'Market Analysis', 'Trading Tools']
     },
     {
       title: 'Dr. Charlotte Joseph',
-      description: 'Professional medical practice website featuring appointment booking, patient resources, and comprehensive healthcare information.',
+      description: 'Dr Charlotte Jane Joseph — consultant developmental paediatrician; website provides services, appointment info, and specialist resources (autism, speech & motor delay, learning disabilities).',
       url: 'https://drcharlottejoseph.com/',
       image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/drcharlete.png',
       category: 'Healthcare Website',
       technologies: ['WordPress', 'PHP', 'MySQL', 'Custom CSS'],
       features: ['Appointment System', 'Patient Portal', 'Medical Resources']
+    },
+    {
+      title: 'Lepak City (Lepak-Lab)',
+      description: 'Lepak City - "The City for Everyone!" Immerse yourself in a vibrant FiveM roleplay world where every character has a story. Join gangs, take on unique jobs, purchase exclusive items with Lepak Coin (LPC), and rule the streets!',
+      url: 'https://lepak-lab.zerocooldev.com/',
+      image: 'https://pub-ba1dca2382b041498de8445523c682c2.r2.dev/lepak.png',
+      category: 'Social Platform (FiveM RP Server)',
+      technologies: ['PHP', 'Python', 'Laravel', 'MySQL', 'Vue.js', 'Bootstrap', 'React', 'Node.js'],
+      features: ['Roleplay Sessions', 'Gang Interaction', 'Exclusive Merchant Items', 'Lepak Coin Economy']
     }
   ];
+
 
   return (
     <section id="projects" className="py-20 bg-gray-900">
