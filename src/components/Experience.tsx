@@ -4,8 +4,21 @@ import { Calendar, MapPin } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
+      title: 'Project Manager',
+      company: 'Asia Padu Sdn Bhd',
+      location: 'Malaysia',
+      period: '2022 - Present',
+      description: 'Leading development of critical government platforms including APPIMR and APPISR for the Ministry of Education, serving thousands of users daily.',
+      achievements: [
+        'Architected scalable education management systems',
+        'Implemented security protocols for sensitive data',
+        'Led team of 5 developers in agile environment',
+        'Reduced system response time by 40%'
+      ]
+    },
+    {
       title: 'Senior Full-Stack Developer',
-      company: 'Government Technology Solutions',
+      company: 'Asia Padu Sdn Bhd',
       location: 'Malaysia',
       period: '2022 - Present',
       description: 'Leading development of critical government platforms including APPIMR and APPISR for the Ministry of Education, serving thousands of users daily.',
@@ -18,7 +31,7 @@ const Experience = () => {
     },
     {
       title: 'Full-Stack Developer',
-      company: 'Enterprise Solutions Provider',
+      company: 'Asia Padu Sdn Bhd',
       location: 'Malaysia',
       period: '2020 - 2022',
       description: 'Developed enterprise applications and cloud platforms, focusing on business process automation and digital transformation.',
@@ -31,7 +44,7 @@ const Experience = () => {
     },
     {
       title: 'Software Developer',
-      company: 'Tech Startup',
+      company: '3TDS Solution',
       location: 'Malaysia',
       period: '2019 - 2020',
       description: 'Contributed to innovative web applications and mobile solutions, gaining experience in rapid prototyping and startup culture.',

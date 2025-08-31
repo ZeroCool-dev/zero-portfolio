@@ -28,19 +28,19 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: 'Email',
-      details: 'your.email@example.com',
-      link: 'mailto:your.email@example.com'
+      details: 'm.asyik76@gmail.com',
+      link: 'mailto:m.asyik76@gmail.com'
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Phone',
-      details: '+60 12-345 6789',
-      link: 'tel:+60123456789'
+      details: '+60 18-901 3147',
+      link: 'tel:+60189013147'
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: 'Location',
-      details: 'Kuala Lumpur, Malaysia',
+      details: 'Shah Alam, Selangor, Malaysia',
       link: null
     }
   ];
